@@ -26,3 +26,4 @@ Store the returned access and refresh tokens in `.env` as `TWITCH_ACCESS_TOKEN` 
 - `/listen` provides a polite ARIA live region, large high-contrast text, browser speech controls, and Space/R/T shortcuts for pause/repeat/timeline.
 - `/overlay` is an OBS-ready transparent lower third with listeners, Golden Eyes, and a 60-second silence nudge.
 - `/dashboard` manages mode, spoiler words, visibility, markers, and reset. Moderators can use `!shift @user 10m` and `!nospoil` in chat.
+
