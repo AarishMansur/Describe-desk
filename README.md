@@ -30,3 +30,4 @@ Store the returned access and refresh tokens in `.env` as `TWITCH_ACCESS_TOKEN` 
 Descriptions are capped at 120 characters, normalised, link/emote stripped, blocklisted, deduplicated for 20 seconds, and limited to one per author every 8 seconds. With `GEMINI_API_KEY`, Gemini Flash-Lite can rewrite a line; otherwise a rule-based cleaner keeps the tool useful with no paid service or local model. The author is always credited.
 
 ## Verification
+
