@@ -27,3 +27,4 @@ Store the returned access and refresh tokens in `.env` as `TWITCH_ACCESS_TOKEN` 
 - `/overlay` is an OBS-ready transparent lower third with listeners, Golden Eyes, and a 60-second silence nudge.
 - `/dashboard` manages mode, spoiler words, visibility, markers, and reset. Moderators can use `!shift @user 10m` and `!nospoil` in chat.
 
+Descriptions are capped at 120 characters, normalised, link/emote stripped, blocklisted, deduplicated for 20 seconds, and limited to one per author every 8 seconds. With `GEMINI_API_KEY`, Gemini Flash-Lite can rewrite a line; otherwise a rule-based cleaner keeps the tool useful with no paid service or local model. The author is always credited.
