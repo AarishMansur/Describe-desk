@@ -23,3 +23,4 @@ Store the returned access and refresh tokens in `.env` as `TWITCH_ACCESS_TOKEN` 
 
 ## Pages and controls
 
+- `/listen` provides a polite ARIA live region, large high-contrast text, browser speech controls, and Space/R/T shortcuts for pause/repeat/timeline.
