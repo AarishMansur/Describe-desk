@@ -18,3 +18,4 @@ Create a free app in the [Twitch Developer Console](https://dev.twitch.tv/consol
 - `user:read:chat` for EventSub chat messages
 - `user:write:chat` to send “Ask what’s happening” requests
 - `channel:manage:broadcast` to create stream markers
+
