@@ -39,3 +39,4 @@ Speech is opt-in from the browser, uses a polite live region to avoid interrupti
 
 ## License
 
+MIT — see [LICENSE](LICENSE).
