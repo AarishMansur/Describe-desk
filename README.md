@@ -9,3 +9,4 @@ An accessible Twitch companion where chat writes concise, live audio description
 3. Run `npm run dev` and open `http://localhost:3000/listen`.
 4. Open `/overlay` in OBS as a Browser Source at **1920 × 1080** with a transparent background. Open `/dashboard` in another tab to manage the demo.
 
+Mock mode simulates four describers. Add a description with `!d A yellow mug sits beside the keyboard` only through Twitch in connected mode; mock descriptions arrive automatically.
