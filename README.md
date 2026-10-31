@@ -37,3 +37,4 @@ Run `npm test`, `npm run lint`, and `npm run build` (or `npm run check`). For a 
 
 Speech is opt-in from the browser, uses a polite live region to avoid interrupting assistive technology, exposes rate and voice choices, keeps controls keyboard accessible, and does not rely on color alone.
 
+## License
