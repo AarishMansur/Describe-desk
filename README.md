@@ -4,3 +4,4 @@ An accessible Twitch companion where chat writes concise, live audio description
 
 ## Quick start (mock demo)
 
+1. Install Node 20+, then run `npm install`.
