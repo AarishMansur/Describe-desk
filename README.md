@@ -11,3 +11,4 @@ An accessible Twitch companion where chat writes concise, live audio description
 
 Mock mode simulates four describers. Add a description with `!d A yellow mug sits beside the keyboard` only through Twitch in connected mode; mock descriptions arrive automatically.
 
+## Twitch setup
