@@ -1,0 +1,3 @@
+import { describe, expect, it } from 'vitest';
+import { CooldownGuard, DedupeGuard } from '../src/filter/guard.js';
+describe('guards', () => { it('enforces eight-second per-user cooldown', () => { const g = new CooldownGuard(); expect(g.allow('ada', 0)).toBe(true); expect(g.allow('ada', 7_999)).toBe(false); expect(g.allow('ada', 8_000)).toBe(true); }); it('flags near duplicates inside its window', () => { const g = new DedupeGuard(); expect(g.isDuplicate('host waves to camera', 0)).toBe(false); expect(g.isDuplicate('host waves to cameras', 1_000)).toBe(true); expect(g.isDuplicate('host waves to camera', 21_000)).toBe(false); }); });
