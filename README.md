@@ -19,3 +19,4 @@ Create a free app in the [Twitch Developer Console](https://dev.twitch.tv/consol
 - `user:write:chat` to send “Ask what’s happening” requests
 - `channel:manage:broadcast` to create stream markers
 
+Store the returned access and refresh tokens in `.env` as `TWITCH_ACCESS_TOKEN` and `TWITCH_REFRESH_TOKEN`; `.env` is ignored by Git. Set `TWITCH_BROADCASTER_ID`, `TWITCH_BOT_USER_ID`, and `MOCK_MODE=0`. The app opens an EventSub WebSocket subscription for `channel.chat.message` and `channel.update`, then reads Helix channel information after an update. The send queue limits requests with independent 5/minute and 50/hour buckets.
