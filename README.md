@@ -31,3 +31,4 @@ Descriptions are capped at 120 characters, normalised, link/emote stripped, bloc
 
 ## Verification
 
+Run `npm test`, `npm run lint`, and `npm run build` (or `npm run check`). For a manual demo, use mock mode, keep `/listen` and `/overlay` open, then visit `/dashboard` and change a setting or press “Ask what’s happening.”
