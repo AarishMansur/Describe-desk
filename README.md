@@ -13,3 +13,4 @@ Mock mode simulates four describers. Add a description with `!d A yellow mug sit
 
 ## Twitch setup
 
+Create a free app in the [Twitch Developer Console](https://dev.twitch.tv/console/apps), configure the OAuth redirect URI as `http://localhost:3000/auth/callback`, then place its client ID and secret in `.env`. Visit `/auth` and authorize with:
