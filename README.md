@@ -3,3 +3,4 @@
 An accessible Twitch companion where chat writes concise, live audio descriptions for blind and low-vision viewers.
 
 ## Quick start (mock demo)
+
